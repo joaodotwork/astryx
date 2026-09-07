@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "status": "pass",
+  "generatedAt": "2026-09-07T08:56:18.035Z",
+  "context": {
+    "sha": "77532e3fa7fbce7b4f8cdcff0b27baf03f8cd655",
+    "runId": "34100249439",
+    "runAttempt": "1",
+    "headSha": "77532e3fa7fbce7b4f8cdcff0b27baf03f8cd655",
+    "baseSha": "b92b07613fbf941392a2138bd22b42c71e2707f0",
+    "ref": "refs/heads/main",
+    "trustedScope": {
+      "hasStableVisual": true,
+      "broadStableVisual": false,
+      "stableComponents": [
+        "DropdownMenu",
+        "MultiSelector",
+        "Popover",
+        "Selector"
+      ],
+      "stableCoreFiles": [
+        "packages/core/src/DropdownMenu/DropdownMenu.tsx",
+        "packages/core/src/MultiSelector/MultiSelector.tsx",
+        "packages/core/src/MultiSelector/hooks.ts",
+        "packages/core/src/Popover/Popover.tsx",
+        "packages/core/src/Popover/usePopover.tsx",
+        "packages/core/src/Selector/Selector.tsx",
+        "packages/core/src/Selector/hooks.ts",
+        "packages/core/src/Selector/useSelectorPresentation.ts"
+      ],
+      "stableThemes": [],
+      "canaryPackages": []
+    }
+  },
+  "platform": "linux-arm64",
+  "baseline": {
+    "capturedAt": "2026-09-05T07:37:37.596Z",
+    "sha": "18eec1821479f873ff26acc25793186285f85aa0",
+    "platform": "linux-arm64"
+  },
+  "counts": {
+    "total": 8,
+    "unchanged": 8,
+    "changed": 0,
+    "added": 0,
+    "removed": 0,
+    "failed": 0
+  },
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "failures": [],
+  "targeting": {
+    "unexercisedOverrides": [],
+    "undeclaredTargets": [],
+    "uncoveredTargets": []
+  }
+}

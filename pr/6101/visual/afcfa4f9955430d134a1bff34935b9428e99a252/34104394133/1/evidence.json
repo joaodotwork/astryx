@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "repo": "facebook/astryx",
+  "pr": 6101,
+  "headSha": "afcfa4f9955430d134a1bff34935b9428e99a252",
+  "testedSha": "afcfa4f9955430d134a1bff34935b9428e99a252",
+  "baseSha": "b92b07613fbf941392a2138bd22b42c71e2707f0",
+  "run": {
+    "id": 34104394133,
+    "attempt": 1
+  },
+  "capture": {
+    "platform": "linux-arm64",
+    "browser": "chromium-149.0.7827.0",
+    "viewport": {
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "deltas": [],
+  "verdict": {
+    "version": 1,
+    "status": "pass",
+    "generatedAt": "2026-09-07T09:49:50.460Z",
+    "context": {
+      "sha": "afcfa4f9955430d134a1bff34935b9428e99a252",
+      "runId": "34104394133",
+      "runAttempt": "1",
+      "headSha": "afcfa4f9955430d134a1bff34935b9428e99a252",
+      "baseSha": "b92b07613fbf941392a2138bd22b42c71e2707f0",
+      "ref": "refs/heads/main",
+      "trustedScope": {
+        "hasStableVisual": true,
+        "broadStableVisual": false,
+        "stableComponents": [
+          "DropdownMenu",
+          "MultiSelector",
+          "Popover",
+          "Selector"
+        ],
+        "stableCoreFiles": [
+          "packages/core/src/DropdownMenu/DropdownMenu.tsx",
+          "packages/core/src/MultiSelector/MultiSelector.tsx",
+          "packages/core/src/MultiSelector/hooks.ts",
+          "packages/core/src/Popover/Popover.tsx",
+          "packages/core/src/Popover/usePopover.tsx",
+          "packages/core/src/Selector/Selector.tsx",
+          "packages/core/src/Selector/hooks.ts",
+          "packages/core/src/Selector/useSelectorPresentation.ts"
+        ],
+        "stableThemes": [],
+        "canaryPackages": []
+      }
+    },
+    "platform": "linux-arm64",
+    "baseline": {
+      "capturedAt": "2026-09-05T07:37:37.596Z",
+      "sha": "18eec1821479f873ff26acc25793186285f85aa0",
+      "platform": "linux-arm64"
+    },
+    "counts": {
+      "total": 8,
+      "unchanged": 8,
+      "changed": 0,
+      "added": 0,
+      "removed": 0,
+      "failed": 0
+    },
+    "changes": [],
+    "added": [],
+    "removed": [],
+    "failures": [],
+    "targeting": {
+      "unexercisedOverrides": [],
+      "undeclaredTargets": [],
+      "uncoveredTargets": []
+    }
+  }
+}

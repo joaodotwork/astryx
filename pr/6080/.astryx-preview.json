@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repository": "facebook/astryx",
+  "pullRequest": {
+    "number": 6080,
+    "headSha": "a4d11e60ee88c81c5d4f7d6a0250596e0f57e3eb",
+    "headRef": "ci/swap-test-lane-runners",
+    "headRepository": "Han5991/astryx",
+    "headRepositoryId": "1295098548"
+  },
+  "sourceRun": {
+    "id": 34004880026,
+    "attempt": 1,
+    "conclusion": "success"
+  },
+  "targets": {
+    "storybook": {
+      "available": true,
+      "path": "pr/6080/",
+      "indexSha256": "b1897f3f4703faf8ebc0206d5d9223d232a0528f87b91aed5b2877c19b7952cd"
+    },
+    "sandbox": {
+      "available": true,
+      "path": "pr/6080/sandbox/",
+      "indexSha256": "efde2fe5e371b9150515aa10d15bf8a62461e82e522cca214958ef0e33abbc88"
+    }
+  }
+}

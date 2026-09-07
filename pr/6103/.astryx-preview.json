@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repository": "facebook/astryx",
+  "pullRequest": {
+    "number": 6103,
+    "headSha": "f0037215e0691bfd746e5f76aebe26add182b027",
+    "headRef": "audit-record-storage-contract",
+    "headRepository": "facebook/astryx",
+    "headRepositoryId": "1131202426"
+  },
+  "sourceRun": {
+    "id": 34101092826,
+    "attempt": 1,
+    "conclusion": "success"
+  },
+  "targets": {
+    "storybook": {
+      "available": true,
+      "path": "pr/6103/",
+      "indexSha256": "b1897f3f4703faf8ebc0206d5d9223d232a0528f87b91aed5b2877c19b7952cd"
+    },
+    "sandbox": {
+      "available": true,
+      "path": "pr/6103/sandbox/",
+      "indexSha256": "52ed0a08503bc048389660b2e3e92f116049375a18ea1ea0f55d35498a8da8e2"
+    }
+  }
+}

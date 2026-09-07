@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repository": "facebook/astryx",
+  "pullRequest": {
+    "number": 6093,
+    "headSha": "b5bb48d6a5b8be1e3b5a32478fb345f89ce7d89a",
+    "headRef": "docs/aspect-ratio-ratio-jsx",
+    "headRepository": "Kyujenius/astryx",
+    "headRepositoryId": "1352594776"
+  },
+  "sourceRun": {
+    "id": 34077851610,
+    "attempt": 1,
+    "conclusion": "success"
+  },
+  "targets": {
+    "storybook": {
+      "available": true,
+      "path": "pr/6093/",
+      "indexSha256": "b1897f3f4703faf8ebc0206d5d9223d232a0528f87b91aed5b2877c19b7952cd"
+    },
+    "sandbox": {
+      "available": true,
+      "path": "pr/6093/sandbox/",
+      "indexSha256": "42d3a249f2a9c95073bbb1917b01efb70d568f07a7cac7716637d615b5c181e1"
+    }
+  }
+}

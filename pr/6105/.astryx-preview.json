@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repository": "facebook/astryx",
+  "pullRequest": {
+    "number": 6105,
+    "headSha": "aed55278144ad35147666be2f576ed85601f6efc",
+    "headRef": "component-audit-roster-foundation",
+    "headRepository": "facebook/astryx",
+    "headRepositoryId": "1131202426"
+  },
+  "sourceRun": {
+    "id": 34099802647,
+    "attempt": 1,
+    "conclusion": "success"
+  },
+  "targets": {
+    "storybook": {
+      "available": true,
+      "path": "pr/6105/",
+      "indexSha256": "b1897f3f4703faf8ebc0206d5d9223d232a0528f87b91aed5b2877c19b7952cd"
+    },
+    "sandbox": {
+      "available": true,
+      "path": "pr/6105/sandbox/",
+      "indexSha256": "4787b1cef6d60e652344734a5640ed14a77d48a5b9b5f66a80e7b02bb8acf51a"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repository": "facebook/astryx",
+  "pullRequest": {
+    "number": 6107,
+    "headSha": "916486db611e97c57491db380aa835fe1e79f27e",
+    "headRef": "fix/chat-composer-input-aria-multiline",
+    "headRepository": "Kyujenius/astryx",
+    "headRepositoryId": "1352594776"
+  },
+  "sourceRun": {
+    "id": 34103858454,
+    "attempt": 1,
+    "conclusion": "success"
+  },
+  "targets": {
+    "storybook": {
+      "available": true,
+      "path": "pr/6107/",
+      "indexSha256": "b1897f3f4703faf8ebc0206d5d9223d232a0528f87b91aed5b2877c19b7952cd"
+    },
+    "sandbox": {
+      "available": true,
+      "path": "pr/6107/sandbox/",
+      "indexSha256": "17896550765d333d5f663249914dbd420cc6cfd327b1f538be45069df91904e9"
+    }
+  }
+}
